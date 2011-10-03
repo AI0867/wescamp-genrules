@@ -24,11 +24,11 @@ if __name__ == "__main__":
     rules = open("wescamp.rules", "w")
 
     branches = grab_urls(client.ls(BASE_URL + BRANCHES))
-    specials = [item for item in branches if is_special(item)]
+    specials = [(format_name(item), item) for item in branches if is_special(item)]
     branches = [(format_name(item), item) for item in branches if not is_special(item)]
 
     for special in specials:
-        repos.append( (format_name(special), special) )
+        repos.append(special)
 
     for branch in branches:
         addons = grab_urls(client.ls(branch[1]))
