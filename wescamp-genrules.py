@@ -1,3 +1,5 @@
+#! /usr/bin/env python
+
 import pysvn
 
 BASE_URL = "svn://svn.berlios.de/wescamp-i18n"
