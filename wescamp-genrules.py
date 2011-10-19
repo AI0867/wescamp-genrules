@@ -32,6 +32,9 @@ if __name__ == "__main__":
     for special in specials:
         repos.append(special)
 
+    # Treat trunk as just another branch
+    branches.append( ('trunk', BASE_URL + TRUNK) )
+
     for branch in branches:
         addons = grab_urls(client.ls(branch[1]))
         for addon in addons:
