@@ -46,7 +46,7 @@ if __name__ == "__main__":
     before_layout = pysvn.Revision( pysvn.opt_revision_kind.number, 1767)
     root_addons = grab_urls(client.ls(BASE_URL, revision=before_layout))
     # Mainlined addons that were removed before r1767
-    root_addons += [ "/Sceptre_of_Fire-po" ]
+    root_addons += [ "/Sceptre_of_Fire-po", "/Son_of_the_Black_Eye-po" ]
     for addon in root_addons:
         name = format_name(addon)
         if name.endswith("-po"):
