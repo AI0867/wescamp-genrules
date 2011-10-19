@@ -41,7 +41,22 @@ if __name__ == "__main__":
             name = "{0}-{1}".format(format_name(addon), branch[0])
             repos.append( (name, addon) )
 
-    # TODO: What to do with trunk?
+    # Handle the add-ons that were dumped in the root
+    # This is the revision before standardlayout was created
+    before_layout = pysvn.Revision( pysvn.opt_revision_kind.number, 1767)
+    root_addons = grab_urls(client.ls(BASE_URL, revision=before_layout))
+    # Mainlined addons that were removed before r1767
+    root_addons += [ "/Sceptre_of_Fire-po" ]
+    for addon in root_addons:
+        name = format_name(addon)
+        if name.endswith("-po"):
+            name = name[:-3]
+            repos.append( ("{0}-root".format(name), addon) )
+        elif name == "The_Hammer_of_Thursagan":
+            # Special-case THoT
+            repos.append( ("{0}-root".format(name), addon) )
+        else:
+            print "Unrecognised path {0}".format(addon)
 
     for repo in repos:
         rules.write("""
