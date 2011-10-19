@@ -88,8 +88,10 @@ if __name__ == "__main__":
             name = name[:-3]
             repos.append( ("{0}-root".format(name), addon) )
         elif name == "The_Hammer_of_Thursagan":
-            # Special-case THoT
-            repos.append( ("{0}-root".format(name), addon) )
+            # Special-case THoT, it's missing the -po suffix
+            pass
+            # We manually add this rule later, as the rename job @ r1703 has some strange history
+            #repos.append( ("{0}-root".format(name), addon) )
         else:
             print "Unrecognised path {0}".format(addon)
 
@@ -108,6 +110,26 @@ match {0}/
     branch master
 end match""".format(strip_base(repo[1]), repo[0]))
 
+    # THoT was moved within the root at some point (capitalisation of 'Of')
+    rules.write("""
+create repository The_Hammer_of_Thursagan-root
+end repository
+match /The_Hammer_Of_Thursagan/
+    repository The_Hammer_of_Thursagan-root
+    branch master
+    max revision 1702
+end match
+match /The_Hammer_Of_Thursagan/
+    min revision 1703
+end match
+match /The_Hammer_of_Thursagan/
+    max revision 1703
+end match
+match /The_Hammer_of_Thursagan/
+    repository The_Hammer_of_Thursagan-root
+    branch master
+    min revision 1704
+end match""")
 
     for ignore in IGNORED_PATHS:
         rules.write("""
