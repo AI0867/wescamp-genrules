@@ -6,6 +6,39 @@ BASE_URL = "svn://svn.berlios.de/wescamp-i18n"
 BRANCHES = "/branches/"
 TRUNK = "/trunk/"
 
+MAINLINED_ROOT_ADDONS = [
+    "/Descent-po",
+    "/Liberty-po",
+    "/Northern_Rebirth-po",
+    "/Orcish_Incursion-po",
+    "/Sceptre_of_Fire-po",
+    "/Son_Of_The_Black_Eye-po",
+    "/The_South_Guard-po",
+    "/Two_Brothers-po",
+    "/Under_the_Burning_Suns-po",
+]
+
+DELETED_ROOT_ADDONS = [
+    "/The_Heist-po",
+    "/Wesnoth_Holdem-po",
+]
+
+DELETED_OTHER_ADDONS = [
+    ("Legend_of_Wesmere-1.4", "/branches/1.4/Legend_of_Wesmere"),
+    ("Rise-1.4", "/branches/1.4/Rise"),
+    ("The_Life_Of_A_Mage-1.4", "/branches/1.4/The_Life_Of_A_Mage"),
+]
+
+IGNORED_PATHS = [
+    # /Liberty and /po paths, which were removed in r3 to be replaced by /Liberty-po
+    "/Liberty",
+    "/po",
+    # Removed testcase for addon-server syncing
+    "/trunk/Flight_Freedom_1_3",
+    # Test commits
+    "/trunk/foo",
+    "/trunk/test",
+]
 
 def is_special(subject):
     return subject.endswith("build-system")
@@ -46,7 +79,9 @@ if __name__ == "__main__":
     before_layout = pysvn.Revision( pysvn.opt_revision_kind.number, 1767)
     root_addons = grab_urls(client.ls(BASE_URL, revision=before_layout))
     # Mainlined addons that were removed before r1767
-    root_addons += [ "/Sceptre_of_Fire-po", "/Son_of_the_Black_Eye-po" ]
+    root_addons += MAINLINED_ROOT_ADDONS
+    # And addons that were removed for other reasons
+    root_addons += DELETED_ROOT_ADDONS
     for addon in root_addons:
         name = format_name(addon)
         if name.endswith("-po"):
@@ -57,6 +92,9 @@ if __name__ == "__main__":
             repos.append( ("{0}-root".format(name), addon) )
         else:
             print "Unrecognised path {0}".format(addon)
+
+    # Other deleted addons
+    repos += DELETED_OTHER_ADDONS
 
     for repo in repos:
         rules.write("""
@@ -70,10 +108,9 @@ match {0}/
     branch master
 end match""".format(strip_base(repo[1]), repo[0]))
 
-    # Add special case for /Liberty and /po paths, which was quickly replaced by /Liberty-po
-    ignores = ["/Liberty", "/po"]
-    for ignore in ignores:
+
+    for ignore in IGNORED_PATHS:
         rules.write("""
-match {0}/
+match {0}
 end match""".format(ignore))
 
