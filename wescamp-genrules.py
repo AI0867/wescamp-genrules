@@ -65,7 +65,7 @@ end repository""".format(repo[0]))
 
     for repo in repos:
         rules.write("""
-match {0}
+match {0}/
     repository {1}
     branch master
 end match""".format(strip_base(repo[1]), repo[0]))
@@ -74,6 +74,6 @@ end match""".format(strip_base(repo[1]), repo[0]))
     ignores = ["/Liberty", "/po"]
     for ignore in ignores:
         rules.write("""
-match {0}
+match {0}/
 end match""".format(ignore))
 
