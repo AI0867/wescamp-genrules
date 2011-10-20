@@ -37,6 +37,9 @@ IGNORED_PATHS = [
     "/po",
     # Removed testcase for addon-server syncing
     "/trunk/Flight_Freedom_1_3",
+    # Renamed to Eastern_Europe_at_War, with identical contents
+    "/branches/1.8/EEaW",
+    "/branches/1.10/EEaW",
     # Test commits
     "/trunk/foo",
     "/trunk/bar",
