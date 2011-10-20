@@ -25,8 +25,10 @@ DELETED_ROOT_ADDONS = [
 
 DELETED_OTHER_ADDONS = [
     ("Legend_of_Wesmere-1.4", "/branches/1.4/Legend_of_Wesmere"),
+    ("Legend_of_Wesmere-trunk", "/trunk/Legend_of_Wesmere"),
     ("Rise-1.4", "/branches/1.4/Rise"),
     ("The_Life_Of_A_Mage-1.4", "/branches/1.4/The_Life_Of_A_Mage"),
+    ("The_Silver_Lands-1.8", "/branches/1.8/The_Silver_Lands"),
 ]
 
 IGNORED_PATHS = [
@@ -37,7 +39,9 @@ IGNORED_PATHS = [
     "/trunk/Flight_Freedom_1_3",
     # Test commits
     "/trunk/foo",
+    "/trunk/bar",
     "/trunk/test",
+    "/foo",
 ]
 
 def is_special(subject):
