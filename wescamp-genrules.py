@@ -6,29 +6,40 @@ BASE_URL = "svn://svn.berlios.de/wescamp-i18n"
 BRANCHES = "/branches/"
 TRUNK = "/trunk/"
 
-MAINLINED_ROOT_ADDONS = [
-    "/Descent-po",
-    "/Liberty-po",
-    "/Northern_Rebirth-po",
-    "/Orcish_Incursion-po",
-    "/Sceptre_of_Fire-po",
-    "/Son_Of_The_Black_Eye-po",
-    "/The_South_Guard-po",
-    "/Two_Brothers-po",
-    "/Under_the_Burning_Suns-po",
-]
-
 DELETED_ROOT_ADDONS = [
-    "/The_Heist-po",
-    "/Wesnoth_Holdem-po",
+    ("/A_New_Order-po", 2261),
+    ("/An_Orcish_Incursion-po", 2083),
+    ("/Attack_of_the_Undead-po", 2164),
+    ("/Children_of_Dragons-po", 2117),
+    ("/Delfadors_Memoirs-po", 2554),
+    ("/Descent-po", 1541),
+    ("/Eliador-po", 2136),
+    ("/Extended_Era-po", 1894),
+    ("/Extended_Era_xtra_1.2-po",1891),
+    ("/Flight_Freedom-po", 2291),
+    ("/Invasion_from_the_Unknown-po", 1992),
+    ("/Legend_of_Wesmere-po", 2018),
+    ("/Liberty-po", 1595),
+    ("/Northern_Rebirth-po", 1509),
+    ("/Orcish_Incursion-po", 1417),
+    ("/Pack_Sapient-po", 2012),
+    ("/Saving_Elensefar-po", 2262),
+    ("/Sceptre_of_Fire-po", 1632),
+    ("/Son_Of_The_Black_Eye-po", 1632),
+    ("/The_Dark_Hordes-po", 2376),
+    ("/The_Heist-po", 1460),
+    ("/The_South_Guard-po", 1417),
+    ("/Two_Brothers-po", 811),
+    ("/Under_the_Burning_Suns-po", 1417),
+    ("/Wesnoth_Holdem-po", 1460),
 ]
 
-DELETED_OTHER_ADDONS = [
-    ("Legend_of_Wesmere-1.4", "/branches/1.4/Legend_of_Wesmere"),
-    ("Legend_of_Wesmere-trunk", "/trunk/Legend_of_Wesmere"),
-    ("Rise-1.4", "/branches/1.4/Rise"),
-    ("The_Life_Of_A_Mage-1.4", "/branches/1.4/The_Life_Of_A_Mage"),
-    ("The_Silver_Lands-1.8", "/branches/1.8/The_Silver_Lands"),
+DELETED_ADDONS = [
+    ("Legend_of_Wesmere-1.4", "/branches/1.4/Legend_of_Wesmere", 2339),
+    ("Legend_of_Wesmere-trunk", "/trunk/Legend_of_Wesmere", 2329),
+    ("Rise-1.4", "/branches/1.4/Rise", 1957),
+    ("The_Life_Of_A_Mage-1.4", "/branches/1.4/The_Life_Of_A_Mage", 2465),
+    ("The_Silver_Lands-1.8", "/branches/1.8/The_Silver_Lands", 3166),
 ]
 
 IGNORED_PATHS = [
@@ -82,28 +93,30 @@ if __name__ == "__main__":
             repos.append( (name, addon) )
 
     # Handle the add-ons that were dumped in the root
-    # This is the revision before standardlayout was created
-    before_layout = pysvn.Revision( pysvn.opt_revision_kind.number, 1767)
-    root_addons = grab_urls(client.ls(BASE_URL, revision=before_layout))
-    # Mainlined addons that were removed before r1767
-    root_addons += MAINLINED_ROOT_ADDONS
-    # And addons that were removed for other reasons
+    root_addons = [(item["name"],) for item in client.ls(BASE_URL) if
+        not item["name"].endswith("/branches") and
+        not item["name"].endswith("/trunk")]
+    # And addons that were removed from there
     root_addons += DELETED_ROOT_ADDONS
     for addon in root_addons:
-        name = format_name(addon)
+        name = format_name(addon[0])
         if name.endswith("-po"):
             name = name[:-3]
-            repos.append( ("{0}-root".format(name), addon) )
+            if len(addon) == 2:
+                repo = ("{0}-root".format(name), addon[0], addon[1])
+            else:
+                repo = ("{0}-root".format(name), addon[0])
+            repos.append(repo)
         elif name == "The_Hammer_of_Thursagan":
             # Special-case THoT, it's missing the -po suffix
             pass
             # We manually add this rule later, as the rename job @ r1703 has some strange history
             #repos.append( ("{0}-root".format(name), addon) )
         else:
-            print "Unrecognised path {0}".format(addon)
+            print "Unrecognised path {0}".format(addon[0])
 
     # Other deleted addons
-    repos += DELETED_OTHER_ADDONS
+    repos += DELETED_ADDONS
 
     for repo in repos:
         rules.write("""
@@ -113,9 +126,13 @@ end repository""".format(repo[0]))
     for repo in repos:
         rules.write("""
 match {0}/
-    repository {1}
+    repository {1}""".format(strip_base(repo[1]), repo[0]))
+        if len(repo) == 3:
+            rules.write("""
+    max revision {0}""".format(repo[2]))
+        rules.write("""
     branch master
-end match""".format(strip_base(repo[1]), repo[0]))
+end match""")
 
     # THoT was moved within the root at some point (capitalisation of 'Of')
     rules.write("""
@@ -136,6 +153,7 @@ match /The_Hammer_of_Thursagan/
     repository The_Hammer_of_Thursagan-root
     branch master
     min revision 1704
+    max revision 1862
 end match""")
 
     for ignore in IGNORED_PATHS:
