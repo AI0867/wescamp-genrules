@@ -1,0 +1,1454 @@
+
+create repository build-system
+end repository
+create repository A_Rough_Life-1.10
+end repository
+create repository A_Simple_Campaign-1.10
+end repository
+create repository After_the_Storm-1.10
+end repository
+create repository Archaic_Era-1.10
+end repository
+create repository Au_dela_de_l_horizon-1.10
+end repository
+create repository Bad_Moon_Rising-1.10
+end repository
+create repository Burning_Souls-1.10
+end repository
+create repository Children_of_Dragons-1.10
+end repository
+create repository Dov_MP_Maps-1.10
+end repository
+create repository Dystopia-1.10
+end repository
+create repository Eastern_Europe_at_War-1.10
+end repository
+create repository Elves_and_Wose-1.10
+end repository
+create repository Era_of_Four_Moons-1.10
+end repository
+create repository Era_of_High_Sorcery-1.10
+end repository
+create repository Era_of_Magic-1.10
+end repository
+create repository Era_of_Myths-1.10
+end repository
+create repository Grafted_Era-1.10
+end repository
+create repository Gunpowder_Age-1.10
+end repository
+create repository Imperial_Era-1.10
+end repository
+create repository Invasion_from_the_Unknown-1.10
+end repository
+create repository Love_To_Death-1.10
+end repository
+create repository Mystery_Campaign-1.10
+end repository
+create repository Nightmares_of_Meloen-1.10
+end repository
+create repository Pack_Sapient-1.10
+end repository
+create repository PantherLord-1.10
+end repository
+create repository Return_from_Captivity-1.10
+end repository
+create repository Roar_of_the_Woses-1.10
+end repository
+create repository Saving_Elensefar-1.10
+end repository
+create repository Swamplings-1.10
+end repository
+create repository Sweet_Revenge-1.10
+end repository
+create repository Tale_of_a_Mage-1.10
+end repository
+create repository The_Dark_Hordes-1.10
+end repository
+create repository The_Fall_of_Wesnoth-1.10
+end repository
+create repository The_Founding_of_Borstep-1.10
+end repository
+create repository The_Ice_Age-1.10
+end repository
+create repository The_Settlers_of_Light-1.10
+end repository
+create repository The_Wesnoth_Forum_Faction_Era-1.10
+end repository
+create repository To_Lands_Unknown-1.10
+end repository
+create repository Trinity-1.10
+end repository
+create repository Troubled_Times-1.10
+end repository
+create repository Valley_of_the_Ancients-1.10
+end repository
+create repository WesCamp_Translation_Insertion_Test-1.10
+end repository
+create repository Wesnoth_Lua_Pack-1.10
+end repository
+create repository ugly_era-1.10
+end repository
+create repository A_New_Order-1.4
+end repository
+create repository Attack_of_the_Undead-1.4
+end repository
+create repository Bad_Moon_Rising-1.4
+end repository
+create repository Children_of_Dragons-1.4
+end repository
+create repository Dead_Water-1.4
+end repository
+create repository Eliador-1.4
+end repository
+create repository Extended_Era-1.4
+end repository
+create repository Flight_Freedom_1_3-1.4
+end repository
+create repository Hall_of_Lame-1.4
+end repository
+create repository Invasion_from_the_Unknown-1.4
+end repository
+create repository Knight_Quest-1.4
+end repository
+create repository Metamorphoses-1.4
+end repository
+create repository On_Crimson_Wings-1.4
+end repository
+create repository Pack_Sapient-1.4
+end repository
+create repository Raajal-1.4
+end repository
+create repository Random_Invasion-1.4
+end repository
+create repository Saving_Elensefar-1.4
+end repository
+create repository Tale_of_a_Mage-1.4
+end repository
+create repository The_Final_Exam-1.4
+end repository
+create repository The_First_Of_The_Dragonriders-1.4
+end repository
+create repository The_Heist-1.4
+end repository
+create repository The_Three_Elves-1.4
+end repository
+create repository Trolls-1.4
+end repository
+create repository A_Rough_Life-1.6
+end repository
+create repository Alfhelm-1.6
+end repository
+create repository An_Ordinary_Adventure-1.6
+end repository
+create repository Bad_Moon_Rising-1.6
+end repository
+create repository Dead_Water-1.6
+end repository
+create repository Dreams_of_Urduk-1.6
+end repository
+create repository Dungeon_Wars_Creepfest-1.6
+end repository
+create repository Elf_War-1.6
+end repository
+create repository Epic_of_Vaniyera-1.6
+end repository
+create repository Era_of_Strife-1.6
+end repository
+create repository Era_of_the_Future-1.6
+end repository
+create repository Extended_Era-1.6
+end repository
+create repository Fall_of_Silvium-1.6
+end repository
+create repository Feudal_Era-1.6
+end repository
+create repository Flight_Freedom_1_5-1.6
+end repository
+create repository Galis_Contract-1.6
+end repository
+create repository Imperial_Era-1.6
+end repository
+create repository Insane_Hermit-1.6
+end repository
+create repository Invasion_from_the_Unknown-1.6
+end repository
+create repository KKSlider_Map_Pack-1.6
+end repository
+create repository Missing_Scepter-1.6
+end repository
+create repository Ooze_Mini_Campaign-1.6
+end repository
+create repository Rebellion_During_the_Dark_Age-1.6
+end repository
+create repository Temples_Of_The_Nagas-1.6
+end repository
+create repository The_Dark_Hordes-1.6
+end repository
+create repository The_Fall_of_Wesnoth-1.6
+end repository
+create repository The_Final_Exam-1.6
+end repository
+create repository Troubled_Times-1.6
+end repository
+create repository Up_From_Slavery-1.6
+end repository
+create repository Wild_Era-1.6
+end repository
+create repository torneo_wif_2009-1.6
+end repository
+create repository Era_of_the_Future-1.7
+end repository
+create repository Invasion_from_the_Unknown-1.7
+end repository
+create repository Rebellion_During_the_Dark_Age-1.7
+end repository
+create repository The_Fall_of_Wesnoth-1.7
+end repository
+create repository The_Final_Exam-1.7
+end repository
+create repository 2p_campaign_battle_system-1.8
+end repository
+create repository A_New_Order-1.8
+end repository
+create repository A_Rough_Life-1.8
+end repository
+create repository After_the_Storm-1.8
+end repository
+create repository Alfhelm-1.8
+end repository
+create repository All_About_Giles-1.8
+end repository
+create repository Archaic_Era-1.8
+end repository
+create repository Bad_Moon_Rising-1.8
+end repository
+create repository Brand_the_brave-1.8
+end repository
+create repository Brave_Wings-1.8
+end repository
+create repository Children_of_Dragons-1.8
+end repository
+create repository Danse_Macabre-1.8
+end repository
+create repository Dead_Water-1.8
+end repository
+create repository Dungeon_Wars_Creepfest-1.8
+end repository
+create repository Eastern_Europe_at_War-1.8
+end repository
+create repository Elves_and_Wose-1.8
+end repository
+create repository Elvish_Dynasty-1.8
+end repository
+create repository Epic_of_Vaniyera-1.8
+end repository
+create repository Era_of_Four_Moons-1.8
+end repository
+create repository Era_of_High_Sorcery-1.8
+end repository
+create repository Era_of_Magic-1.8
+end repository
+create repository Era_of_Myths-1.8
+end repository
+create repository Era_of_Strife-1.8
+end repository
+create repository Era_of_the_Future-1.8
+end repository
+create repository Extended_Era-1.8
+end repository
+create repository Fall_of_Silvium-1.8
+end repository
+create repository Fate_of_a_Princess-1.8
+end repository
+create repository Flight_Freedom-1.8
+end repository
+create repository Galis_Contract-1.8
+end repository
+create repository Grafted_Era-1.8
+end repository
+create repository Gunpowder_Age-1.8
+end repository
+create repository High_Seas_Era-1.8
+end repository
+create repository Imperial_Era-1.8
+end repository
+create repository Invasion_from_the_Unknown-1.8
+end repository
+create repository Journey_to_the_East-1.8
+end repository
+create repository Kromire-1.8
+end repository
+create repository Love_To_Death-1.8
+end repository
+create repository MAP-1.8
+end repository
+create repository Maps_by_Inanna-1.8
+end repository
+create repository Middle_Ages-1.8
+end repository
+create repository Mine_Rails-1.8
+end repository
+create repository Nightmares_of_Meloen-1.8
+end repository
+create repository North_Wind-1.8
+end repository
+create repository Ooze_Mini_Campaign-1.8
+end repository
+create repository Pack_Sapient-1.8
+end repository
+create repository Rebellion_During_the_Dark_Age-1.8
+end repository
+create repository Return_from_Captivity-1.8
+end repository
+create repository Roar_of_the_Woses-1.8
+end repository
+create repository Royal_Death-1.8
+end repository
+create repository SXC_Mikael-1.8
+end repository
+create repository Saving_Elensefar-1.8
+end repository
+create repository Story_of_Wose-1.8
+end repository
+create repository Swamplings-1.8
+end repository
+create repository TCG-1.8
+end repository
+create repository Tale_of_a_Mage-1.8
+end repository
+create repository Temples_Of_The_Nagas-1.8
+end repository
+create repository The_Cost_Of_Living-1.8
+end repository
+create repository The_Eight_Of_Cembulad-1.8
+end repository
+create repository The_Final_Exam-1.8
+end repository
+create repository The_Foolish_Hero-1.8
+end repository
+create repository The_Founding_of_Alduin_Isle-1.8
+end repository
+create repository The_Founding_of_Borstep-1.8
+end repository
+create repository The_Southern_War-1.8
+end repository
+create repository To_Lands_Unknown-1.8
+end repository
+create repository Tower_Defense-1.8
+end repository
+create repository Tribes_of_the_North-1.8
+end repository
+create repository Trinity-1.8
+end repository
+create repository Troubled_Times-1.8
+end repository
+create repository Ucieczka_z_Podziemi-1.8
+end repository
+create repository Up_From_Slavery-1.8
+end repository
+create repository Valley_of_the_Ancients-1.8
+end repository
+create repository WCE-1.8
+end repository
+create repository betrayal_of_thaeylan-1.8
+end repository
+create repository torneo_wif_2010-1.8
+end repository
+create repository torneo_wif_2011-1.8
+end repository
+create repository After_the_Storm-trunk
+end repository
+create repository Alfhelm-trunk
+end repository
+create repository Bad_Moon_Rising-trunk
+end repository
+create repository Dead_Water-trunk
+end repository
+create repository Epic_of_Vaniyera-trunk
+end repository
+create repository Era_of_Strife-trunk
+end repository
+create repository Fall_of_Silvium-trunk
+end repository
+create repository Feudal_Era-trunk
+end repository
+create repository Flight_Freedom_1_5-trunk
+end repository
+create repository Galis_Contract-trunk
+end repository
+create repository Imperial_Era-trunk
+end repository
+create repository Invasion_from_the_Unknown-trunk
+end repository
+create repository Pack_Sapient-trunk
+end repository
+create repository The_Dark_Hordes-trunk
+end repository
+create repository Up_From_Slavery-trunk
+end repository
+create repository Wild_Era-trunk
+end repository
+create repository Dark_Elves-root
+end repository
+create repository Imperial_Era-root
+end repository
+create repository Mage_Republic-root
+end repository
+create repository Mystery_Campaign-root
+end repository
+create repository The_Unstoppable_Legion-root
+end repository
+create repository Unrest-root
+end repository
+create repository A_New_Order-root
+end repository
+create repository An_Orcish_Incursion-root
+end repository
+create repository Attack_of_the_Undead-root
+end repository
+create repository Children_of_Dragons-root
+end repository
+create repository Delfadors_Memoirs-root
+end repository
+create repository Descent-root
+end repository
+create repository Eliador-root
+end repository
+create repository Extended_Era-root
+end repository
+create repository Extended_Era_xtra_1.2-root
+end repository
+create repository Flight_Freedom-root
+end repository
+create repository Invasion_from_the_Unknown-root
+end repository
+create repository Legend_of_Wesmere-root
+end repository
+create repository Liberty-root
+end repository
+create repository Northern_Rebirth-root
+end repository
+create repository Orcish_Incursion-root
+end repository
+create repository Pack_Sapient-root
+end repository
+create repository Saving_Elensefar-root
+end repository
+create repository Sceptre_of_Fire-root
+end repository
+create repository Son_Of_The_Black_Eye-root
+end repository
+create repository The_Dark_Hordes-root
+end repository
+create repository The_Heist-root
+end repository
+create repository The_South_Guard-root
+end repository
+create repository Two_Brothers-root
+end repository
+create repository Under_the_Burning_Suns-root
+end repository
+create repository Wesnoth_Holdem-root
+end repository
+create repository Legend_of_Wesmere-1.4
+end repository
+create repository Legend_of_Wesmere-trunk
+end repository
+create repository Rise-1.4
+end repository
+create repository The_Life_Of_A_Mage-1.4
+end repository
+create repository The_Silver_Lands-1.8
+end repository
+match /branches/build-system/
+    repository build-system
+    branch master
+end match
+match /branches/1.10/A_Rough_Life/
+    repository A_Rough_Life-1.10
+    branch master
+end match
+match /branches/1.10/A_Simple_Campaign/
+    repository A_Simple_Campaign-1.10
+    branch master
+end match
+match /branches/1.10/After_the_Storm/
+    repository After_the_Storm-1.10
+    branch master
+end match
+match /branches/1.10/Archaic_Era/
+    repository Archaic_Era-1.10
+    branch master
+end match
+match /branches/1.10/Au_dela_de_l_horizon/
+    repository Au_dela_de_l_horizon-1.10
+    branch master
+end match
+match /branches/1.10/Bad_Moon_Rising/
+    repository Bad_Moon_Rising-1.10
+    branch master
+end match
+match /branches/1.10/Burning_Souls/
+    repository Burning_Souls-1.10
+    branch master
+end match
+match /branches/1.10/Children_of_Dragons/
+    repository Children_of_Dragons-1.10
+    branch master
+end match
+match /branches/1.10/Dov_MP_Maps/
+    repository Dov_MP_Maps-1.10
+    branch master
+end match
+match /branches/1.10/Dystopia/
+    repository Dystopia-1.10
+    branch master
+end match
+match /branches/1.10/Eastern_Europe_at_War/
+    repository Eastern_Europe_at_War-1.10
+    branch master
+end match
+match /branches/1.10/Elves_and_Wose/
+    repository Elves_and_Wose-1.10
+    branch master
+end match
+match /branches/1.10/Era_of_Four_Moons/
+    repository Era_of_Four_Moons-1.10
+    branch master
+end match
+match /branches/1.10/Era_of_High_Sorcery/
+    repository Era_of_High_Sorcery-1.10
+    branch master
+end match
+match /branches/1.10/Era_of_Magic/
+    repository Era_of_Magic-1.10
+    branch master
+end match
+match /branches/1.10/Era_of_Myths/
+    repository Era_of_Myths-1.10
+    branch master
+end match
+match /branches/1.10/Grafted_Era/
+    repository Grafted_Era-1.10
+    branch master
+end match
+match /branches/1.10/Gunpowder_Age/
+    repository Gunpowder_Age-1.10
+    branch master
+end match
+match /branches/1.10/Imperial_Era/
+    repository Imperial_Era-1.10
+    branch master
+end match
+match /branches/1.10/Invasion_from_the_Unknown/
+    repository Invasion_from_the_Unknown-1.10
+    branch master
+end match
+match /branches/1.10/Love_To_Death/
+    repository Love_To_Death-1.10
+    branch master
+end match
+match /branches/1.10/Mystery_Campaign/
+    repository Mystery_Campaign-1.10
+    branch master
+end match
+match /branches/1.10/Nightmares_of_Meloen/
+    repository Nightmares_of_Meloen-1.10
+    branch master
+end match
+match /branches/1.10/Pack_Sapient/
+    repository Pack_Sapient-1.10
+    branch master
+end match
+match /branches/1.10/PantherLord/
+    repository PantherLord-1.10
+    branch master
+end match
+match /branches/1.10/Return_from_Captivity/
+    repository Return_from_Captivity-1.10
+    branch master
+end match
+match /branches/1.10/Roar_of_the_Woses/
+    repository Roar_of_the_Woses-1.10
+    branch master
+end match
+match /branches/1.10/Saving_Elensefar/
+    repository Saving_Elensefar-1.10
+    branch master
+end match
+match /branches/1.10/Swamplings/
+    repository Swamplings-1.10
+    branch master
+end match
+match /branches/1.10/Sweet_Revenge/
+    repository Sweet_Revenge-1.10
+    branch master
+end match
+match /branches/1.10/Tale_of_a_Mage/
+    repository Tale_of_a_Mage-1.10
+    branch master
+end match
+match /branches/1.10/The_Dark_Hordes/
+    repository The_Dark_Hordes-1.10
+    branch master
+end match
+match /branches/1.10/The_Fall_of_Wesnoth/
+    repository The_Fall_of_Wesnoth-1.10
+    branch master
+end match
+match /branches/1.10/The_Founding_of_Borstep/
+    repository The_Founding_of_Borstep-1.10
+    branch master
+end match
+match /branches/1.10/The_Ice_Age/
+    repository The_Ice_Age-1.10
+    branch master
+end match
+match /branches/1.10/The_Settlers_of_Light/
+    repository The_Settlers_of_Light-1.10
+    branch master
+end match
+match /branches/1.10/The_Wesnoth_Forum_Faction_Era/
+    repository The_Wesnoth_Forum_Faction_Era-1.10
+    branch master
+end match
+match /branches/1.10/To_Lands_Unknown/
+    repository To_Lands_Unknown-1.10
+    branch master
+end match
+match /branches/1.10/Trinity/
+    repository Trinity-1.10
+    branch master
+end match
+match /branches/1.10/Troubled_Times/
+    repository Troubled_Times-1.10
+    branch master
+end match
+match /branches/1.10/Valley_of_the_Ancients/
+    repository Valley_of_the_Ancients-1.10
+    branch master
+end match
+match /branches/1.10/WesCamp_Translation_Insertion_Test/
+    repository WesCamp_Translation_Insertion_Test-1.10
+    branch master
+end match
+match /branches/1.10/Wesnoth_Lua_Pack/
+    repository Wesnoth_Lua_Pack-1.10
+    branch master
+end match
+match /branches/1.10/ugly_era/
+    repository ugly_era-1.10
+    branch master
+end match
+match /branches/1.4/A_New_Order/
+    repository A_New_Order-1.4
+    branch master
+end match
+match /branches/1.4/Attack_of_the_Undead/
+    repository Attack_of_the_Undead-1.4
+    branch master
+end match
+match /branches/1.4/Bad_Moon_Rising/
+    repository Bad_Moon_Rising-1.4
+    branch master
+end match
+match /branches/1.4/Children_of_Dragons/
+    repository Children_of_Dragons-1.4
+    branch master
+end match
+match /branches/1.4/Dead_Water/
+    repository Dead_Water-1.4
+    branch master
+end match
+match /branches/1.4/Eliador/
+    repository Eliador-1.4
+    branch master
+end match
+match /branches/1.4/Extended_Era/
+    repository Extended_Era-1.4
+    branch master
+end match
+match /branches/1.4/Flight_Freedom_1_3/
+    repository Flight_Freedom_1_3-1.4
+    branch master
+end match
+match /branches/1.4/Hall_of_Lame/
+    repository Hall_of_Lame-1.4
+    branch master
+end match
+match /branches/1.4/Invasion_from_the_Unknown/
+    repository Invasion_from_the_Unknown-1.4
+    branch master
+end match
+match /branches/1.4/Knight_Quest/
+    repository Knight_Quest-1.4
+    branch master
+end match
+match /branches/1.4/Metamorphoses/
+    repository Metamorphoses-1.4
+    branch master
+end match
+match /branches/1.4/On_Crimson_Wings/
+    repository On_Crimson_Wings-1.4
+    branch master
+end match
+match /branches/1.4/Pack_Sapient/
+    repository Pack_Sapient-1.4
+    branch master
+end match
+match /branches/1.4/Raajal/
+    repository Raajal-1.4
+    branch master
+end match
+match /branches/1.4/Random_Invasion/
+    repository Random_Invasion-1.4
+    branch master
+end match
+match /branches/1.4/Saving_Elensefar/
+    repository Saving_Elensefar-1.4
+    branch master
+end match
+match /branches/1.4/Tale_of_a_Mage/
+    repository Tale_of_a_Mage-1.4
+    branch master
+end match
+match /branches/1.4/The_Final_Exam/
+    repository The_Final_Exam-1.4
+    branch master
+end match
+match /branches/1.4/The_First_Of_The_Dragonriders/
+    repository The_First_Of_The_Dragonriders-1.4
+    branch master
+end match
+match /branches/1.4/The_Heist/
+    repository The_Heist-1.4
+    branch master
+end match
+match /branches/1.4/The_Three_Elves/
+    repository The_Three_Elves-1.4
+    branch master
+end match
+match /branches/1.4/Trolls/
+    repository Trolls-1.4
+    branch master
+end match
+match /branches/1.6/A_Rough_Life/
+    repository A_Rough_Life-1.6
+    branch master
+end match
+match /branches/1.6/Alfhelm/
+    repository Alfhelm-1.6
+    branch master
+end match
+match /branches/1.6/An_Ordinary_Adventure/
+    repository An_Ordinary_Adventure-1.6
+    branch master
+end match
+match /branches/1.6/Bad_Moon_Rising/
+    repository Bad_Moon_Rising-1.6
+    branch master
+end match
+match /branches/1.6/Dead_Water/
+    repository Dead_Water-1.6
+    branch master
+end match
+match /branches/1.6/Dreams_of_Urduk/
+    repository Dreams_of_Urduk-1.6
+    branch master
+end match
+match /branches/1.6/Dungeon_Wars_Creepfest/
+    repository Dungeon_Wars_Creepfest-1.6
+    branch master
+end match
+match /branches/1.6/Elf_War/
+    repository Elf_War-1.6
+    branch master
+end match
+match /branches/1.6/Epic_of_Vaniyera/
+    repository Epic_of_Vaniyera-1.6
+    branch master
+end match
+match /branches/1.6/Era_of_Strife/
+    repository Era_of_Strife-1.6
+    branch master
+end match
+match /branches/1.6/Era_of_the_Future/
+    repository Era_of_the_Future-1.6
+    branch master
+end match
+match /branches/1.6/Extended_Era/
+    repository Extended_Era-1.6
+    branch master
+end match
+match /branches/1.6/Fall_of_Silvium/
+    repository Fall_of_Silvium-1.6
+    branch master
+end match
+match /branches/1.6/Feudal_Era/
+    repository Feudal_Era-1.6
+    branch master
+end match
+match /branches/1.6/Flight_Freedom_1_5/
+    repository Flight_Freedom_1_5-1.6
+    branch master
+end match
+match /branches/1.6/Galis_Contract/
+    repository Galis_Contract-1.6
+    branch master
+end match
+match /branches/1.6/Imperial_Era/
+    repository Imperial_Era-1.6
+    branch master
+end match
+match /branches/1.6/Insane_Hermit/
+    repository Insane_Hermit-1.6
+    branch master
+end match
+match /branches/1.6/Invasion_from_the_Unknown/
+    repository Invasion_from_the_Unknown-1.6
+    branch master
+end match
+match /branches/1.6/KKSlider_Map_Pack/
+    repository KKSlider_Map_Pack-1.6
+    branch master
+end match
+match /branches/1.6/Missing_Scepter/
+    repository Missing_Scepter-1.6
+    branch master
+end match
+match /branches/1.6/Ooze_Mini_Campaign/
+    repository Ooze_Mini_Campaign-1.6
+    branch master
+end match
+match /branches/1.6/Rebellion_During_the_Dark_Age/
+    repository Rebellion_During_the_Dark_Age-1.6
+    branch master
+end match
+match /branches/1.6/Temples_Of_The_Nagas/
+    repository Temples_Of_The_Nagas-1.6
+    branch master
+end match
+match /branches/1.6/The_Dark_Hordes/
+    repository The_Dark_Hordes-1.6
+    branch master
+end match
+match /branches/1.6/The_Fall_of_Wesnoth/
+    repository The_Fall_of_Wesnoth-1.6
+    branch master
+end match
+match /branches/1.6/The_Final_Exam/
+    repository The_Final_Exam-1.6
+    branch master
+end match
+match /branches/1.6/Troubled_Times/
+    repository Troubled_Times-1.6
+    branch master
+end match
+match /branches/1.6/Up_From_Slavery/
+    repository Up_From_Slavery-1.6
+    branch master
+end match
+match /branches/1.6/Wild_Era/
+    repository Wild_Era-1.6
+    branch master
+end match
+match /branches/1.6/torneo_wif_2009/
+    repository torneo_wif_2009-1.6
+    branch master
+end match
+match /branches/1.7/Era_of_the_Future/
+    repository Era_of_the_Future-1.7
+    branch master
+end match
+match /branches/1.7/Invasion_from_the_Unknown/
+    repository Invasion_from_the_Unknown-1.7
+    branch master
+end match
+match /branches/1.7/Rebellion_During_the_Dark_Age/
+    repository Rebellion_During_the_Dark_Age-1.7
+    branch master
+end match
+match /branches/1.7/The_Fall_of_Wesnoth/
+    repository The_Fall_of_Wesnoth-1.7
+    branch master
+end match
+match /branches/1.7/The_Final_Exam/
+    repository The_Final_Exam-1.7
+    branch master
+end match
+match /branches/1.8/2p_campaign_battle_system/
+    repository 2p_campaign_battle_system-1.8
+    branch master
+end match
+match /branches/1.8/A_New_Order/
+    repository A_New_Order-1.8
+    branch master
+end match
+match /branches/1.8/A_Rough_Life/
+    repository A_Rough_Life-1.8
+    branch master
+end match
+match /branches/1.8/After_the_Storm/
+    repository After_the_Storm-1.8
+    branch master
+end match
+match /branches/1.8/Alfhelm/
+    repository Alfhelm-1.8
+    branch master
+end match
+match /branches/1.8/All_About_Giles/
+    repository All_About_Giles-1.8
+    branch master
+end match
+match /branches/1.8/Archaic_Era/
+    repository Archaic_Era-1.8
+    branch master
+end match
+match /branches/1.8/Bad_Moon_Rising/
+    repository Bad_Moon_Rising-1.8
+    branch master
+end match
+match /branches/1.8/Brand_the_brave/
+    repository Brand_the_brave-1.8
+    branch master
+end match
+match /branches/1.8/Brave_Wings/
+    repository Brave_Wings-1.8
+    branch master
+end match
+match /branches/1.8/Children_of_Dragons/
+    repository Children_of_Dragons-1.8
+    branch master
+end match
+match /branches/1.8/Danse_Macabre/
+    repository Danse_Macabre-1.8
+    branch master
+end match
+match /branches/1.8/Dead_Water/
+    repository Dead_Water-1.8
+    branch master
+end match
+match /branches/1.8/Dungeon_Wars_Creepfest/
+    repository Dungeon_Wars_Creepfest-1.8
+    branch master
+end match
+match /branches/1.8/Eastern_Europe_at_War/
+    repository Eastern_Europe_at_War-1.8
+    branch master
+end match
+match /branches/1.8/Elves_and_Wose/
+    repository Elves_and_Wose-1.8
+    branch master
+end match
+match /branches/1.8/Elvish_Dynasty/
+    repository Elvish_Dynasty-1.8
+    branch master
+end match
+match /branches/1.8/Epic_of_Vaniyera/
+    repository Epic_of_Vaniyera-1.8
+    branch master
+end match
+match /branches/1.8/Era_of_Four_Moons/
+    repository Era_of_Four_Moons-1.8
+    branch master
+end match
+match /branches/1.8/Era_of_High_Sorcery/
+    repository Era_of_High_Sorcery-1.8
+    branch master
+end match
+match /branches/1.8/Era_of_Magic/
+    repository Era_of_Magic-1.8
+    branch master
+end match
+match /branches/1.8/Era_of_Myths/
+    repository Era_of_Myths-1.8
+    branch master
+end match
+match /branches/1.8/Era_of_Strife/
+    repository Era_of_Strife-1.8
+    branch master
+end match
+match /branches/1.8/Era_of_the_Future/
+    repository Era_of_the_Future-1.8
+    branch master
+end match
+match /branches/1.8/Extended_Era/
+    repository Extended_Era-1.8
+    branch master
+end match
+match /branches/1.8/Fall_of_Silvium/
+    repository Fall_of_Silvium-1.8
+    branch master
+end match
+match /branches/1.8/Fate_of_a_Princess/
+    repository Fate_of_a_Princess-1.8
+    branch master
+end match
+match /branches/1.8/Flight_Freedom/
+    repository Flight_Freedom-1.8
+    branch master
+end match
+match /branches/1.8/Galis_Contract/
+    repository Galis_Contract-1.8
+    branch master
+end match
+match /branches/1.8/Grafted_Era/
+    repository Grafted_Era-1.8
+    branch master
+end match
+match /branches/1.8/Gunpowder_Age/
+    repository Gunpowder_Age-1.8
+    branch master
+end match
+match /branches/1.8/High_Seas_Era/
+    repository High_Seas_Era-1.8
+    branch master
+end match
+match /branches/1.8/Imperial_Era/
+    repository Imperial_Era-1.8
+    branch master
+end match
+match /branches/1.8/Invasion_from_the_Unknown/
+    repository Invasion_from_the_Unknown-1.8
+    branch master
+end match
+match /branches/1.8/Journey_to_the_East/
+    repository Journey_to_the_East-1.8
+    branch master
+end match
+match /branches/1.8/Kromire/
+    repository Kromire-1.8
+    branch master
+end match
+match /branches/1.8/Love_To_Death/
+    repository Love_To_Death-1.8
+    branch master
+end match
+match /branches/1.8/MAP/
+    repository MAP-1.8
+    branch master
+end match
+match /branches/1.8/Maps_by_Inanna/
+    repository Maps_by_Inanna-1.8
+    branch master
+end match
+match /branches/1.8/Middle_Ages/
+    repository Middle_Ages-1.8
+    branch master
+end match
+match /branches/1.8/Mine_Rails/
+    repository Mine_Rails-1.8
+    branch master
+end match
+match /branches/1.8/Nightmares_of_Meloen/
+    repository Nightmares_of_Meloen-1.8
+    branch master
+end match
+match /branches/1.8/North_Wind/
+    repository North_Wind-1.8
+    branch master
+end match
+match /branches/1.8/Ooze_Mini_Campaign/
+    repository Ooze_Mini_Campaign-1.8
+    branch master
+end match
+match /branches/1.8/Pack_Sapient/
+    repository Pack_Sapient-1.8
+    branch master
+end match
+match /branches/1.8/Rebellion_During_the_Dark_Age/
+    repository Rebellion_During_the_Dark_Age-1.8
+    branch master
+end match
+match /branches/1.8/Return_from_Captivity/
+    repository Return_from_Captivity-1.8
+    branch master
+end match
+match /branches/1.8/Roar_of_the_Woses/
+    repository Roar_of_the_Woses-1.8
+    branch master
+end match
+match /branches/1.8/Royal_Death/
+    repository Royal_Death-1.8
+    branch master
+end match
+match /branches/1.8/SXC_Mikael/
+    repository SXC_Mikael-1.8
+    branch master
+end match
+match /branches/1.8/Saving_Elensefar/
+    repository Saving_Elensefar-1.8
+    branch master
+end match
+match /branches/1.8/Story_of_Wose/
+    repository Story_of_Wose-1.8
+    branch master
+end match
+match /branches/1.8/Swamplings/
+    repository Swamplings-1.8
+    branch master
+end match
+match /branches/1.8/TCG/
+    repository TCG-1.8
+    branch master
+end match
+match /branches/1.8/Tale_of_a_Mage/
+    repository Tale_of_a_Mage-1.8
+    branch master
+end match
+match /branches/1.8/Temples_Of_The_Nagas/
+    repository Temples_Of_The_Nagas-1.8
+    branch master
+end match
+match /branches/1.8/The_Cost_Of_Living/
+    repository The_Cost_Of_Living-1.8
+    branch master
+end match
+match /branches/1.8/The_Eight_Of_Cembulad/
+    repository The_Eight_Of_Cembulad-1.8
+    branch master
+end match
+match /branches/1.8/The_Final_Exam/
+    repository The_Final_Exam-1.8
+    branch master
+end match
+match /branches/1.8/The_Foolish_Hero/
+    repository The_Foolish_Hero-1.8
+    branch master
+end match
+match /branches/1.8/The_Founding_of_Alduin_Isle/
+    repository The_Founding_of_Alduin_Isle-1.8
+    branch master
+end match
+match /branches/1.8/The_Founding_of_Borstep/
+    repository The_Founding_of_Borstep-1.8
+    branch master
+end match
+match /branches/1.8/The_Southern_War/
+    repository The_Southern_War-1.8
+    branch master
+end match
+match /branches/1.8/To_Lands_Unknown/
+    repository To_Lands_Unknown-1.8
+    branch master
+end match
+match /branches/1.8/Tower_Defense/
+    repository Tower_Defense-1.8
+    branch master
+end match
+match /branches/1.8/Tribes_of_the_North/
+    repository Tribes_of_the_North-1.8
+    branch master
+end match
+match /branches/1.8/Trinity/
+    repository Trinity-1.8
+    branch master
+end match
+match /branches/1.8/Troubled_Times/
+    repository Troubled_Times-1.8
+    branch master
+end match
+match /branches/1.8/Ucieczka_z_Podziemi/
+    repository Ucieczka_z_Podziemi-1.8
+    branch master
+end match
+match /branches/1.8/Up_From_Slavery/
+    repository Up_From_Slavery-1.8
+    branch master
+end match
+match /branches/1.8/Valley_of_the_Ancients/
+    repository Valley_of_the_Ancients-1.8
+    branch master
+end match
+match /branches/1.8/WCE/
+    repository WCE-1.8
+    branch master
+end match
+match /branches/1.8/betrayal_of_thaeylan/
+    repository betrayal_of_thaeylan-1.8
+    branch master
+end match
+match /branches/1.8/torneo_wif_2010/
+    repository torneo_wif_2010-1.8
+    branch master
+end match
+match /branches/1.8/torneo_wif_2011/
+    repository torneo_wif_2011-1.8
+    branch master
+end match
+match /trunk/After_the_Storm/
+    repository After_the_Storm-trunk
+    branch master
+end match
+match /trunk/Alfhelm/
+    repository Alfhelm-trunk
+    branch master
+end match
+match /trunk/Bad_Moon_Rising/
+    repository Bad_Moon_Rising-trunk
+    branch master
+end match
+match /trunk/Dead_Water/
+    repository Dead_Water-trunk
+    branch master
+end match
+match /trunk/Epic_of_Vaniyera/
+    repository Epic_of_Vaniyera-trunk
+    branch master
+end match
+match /trunk/Era_of_Strife/
+    repository Era_of_Strife-trunk
+    branch master
+end match
+match /trunk/Fall_of_Silvium/
+    repository Fall_of_Silvium-trunk
+    branch master
+end match
+match /trunk/Feudal_Era/
+    repository Feudal_Era-trunk
+    branch master
+end match
+match /trunk/Flight_Freedom_1_5/
+    repository Flight_Freedom_1_5-trunk
+    branch master
+end match
+match /trunk/Galis_Contract/
+    repository Galis_Contract-trunk
+    branch master
+end match
+match /trunk/Imperial_Era/
+    repository Imperial_Era-trunk
+    branch master
+end match
+match /trunk/Invasion_from_the_Unknown/
+    repository Invasion_from_the_Unknown-trunk
+    branch master
+end match
+match /trunk/Pack_Sapient/
+    repository Pack_Sapient-trunk
+    branch master
+end match
+match /trunk/The_Dark_Hordes/
+    repository The_Dark_Hordes-trunk
+    branch master
+end match
+match /trunk/Up_From_Slavery/
+    repository Up_From_Slavery-trunk
+    branch master
+end match
+match /trunk/Wild_Era/
+    repository Wild_Era-trunk
+    branch master
+end match
+match /Dark_Elves-po/
+    repository Dark_Elves-root
+    branch master
+end match
+match /Imperial_Era-po/
+    repository Imperial_Era-root
+    branch master
+end match
+match /Mage_Republic-po/
+    repository Mage_Republic-root
+    branch master
+end match
+match /Mystery_Campaign-po/
+    repository Mystery_Campaign-root
+    branch master
+end match
+match /The_Unstoppable_Legion-po/
+    repository The_Unstoppable_Legion-root
+    branch master
+end match
+match /Unrest-po/
+    repository Unrest-root
+    branch master
+end match
+match /A_New_Order-po/
+    repository A_New_Order-root
+    max revision 2261
+    branch master
+end match
+match /An_Orcish_Incursion-po/
+    repository An_Orcish_Incursion-root
+    max revision 2083
+    branch master
+end match
+match /Attack_of_the_Undead-po/
+    repository Attack_of_the_Undead-root
+    max revision 2164
+    branch master
+end match
+match /Children_of_Dragons-po/
+    repository Children_of_Dragons-root
+    max revision 2117
+    branch master
+end match
+match /Delfadors_Memoirs-po/
+    repository Delfadors_Memoirs-root
+    max revision 2554
+    branch master
+end match
+match /Descent-po/
+    repository Descent-root
+    max revision 1541
+    branch master
+end match
+match /Eliador-po/
+    repository Eliador-root
+    max revision 2136
+    branch master
+end match
+match /Extended_Era-po/
+    repository Extended_Era-root
+    max revision 1894
+    branch master
+end match
+match /Extended_Era_xtra_1.2-po/
+    repository Extended_Era_xtra_1.2-root
+    max revision 1891
+    branch master
+end match
+match /Flight_Freedom-po/
+    repository Flight_Freedom-root
+    max revision 2291
+    branch master
+end match
+match /Invasion_from_the_Unknown-po/
+    repository Invasion_from_the_Unknown-root
+    max revision 1992
+    branch master
+end match
+match /Legend_of_Wesmere-po/
+    repository Legend_of_Wesmere-root
+    max revision 2018
+    branch master
+end match
+match /Liberty-po/
+    repository Liberty-root
+    max revision 1595
+    branch master
+end match
+match /Northern_Rebirth-po/
+    repository Northern_Rebirth-root
+    max revision 1509
+    branch master
+end match
+match /Orcish_Incursion-po/
+    repository Orcish_Incursion-root
+    max revision 1417
+    branch master
+end match
+match /Pack_Sapient-po/
+    repository Pack_Sapient-root
+    max revision 2012
+    branch master
+end match
+match /Saving_Elensefar-po/
+    repository Saving_Elensefar-root
+    max revision 2262
+    branch master
+end match
+match /Sceptre_of_Fire-po/
+    repository Sceptre_of_Fire-root
+    max revision 1632
+    branch master
+end match
+match /Son_Of_The_Black_Eye-po/
+    repository Son_Of_The_Black_Eye-root
+    max revision 1632
+    branch master
+end match
+match /The_Dark_Hordes-po/
+    repository The_Dark_Hordes-root
+    max revision 2376
+    branch master
+end match
+match /The_Heist-po/
+    repository The_Heist-root
+    max revision 1460
+    branch master
+end match
+match /The_South_Guard-po/
+    repository The_South_Guard-root
+    max revision 1417
+    branch master
+end match
+match /Two_Brothers-po/
+    repository Two_Brothers-root
+    max revision 811
+    branch master
+end match
+match /Under_the_Burning_Suns-po/
+    repository Under_the_Burning_Suns-root
+    max revision 1417
+    branch master
+end match
+match /Wesnoth_Holdem-po/
+    repository Wesnoth_Holdem-root
+    max revision 1460
+    branch master
+end match
+match /branches/1.4/Legend_of_Wesmere/
+    repository Legend_of_Wesmere-1.4
+    max revision 2339
+    branch master
+end match
+match /trunk/Legend_of_Wesmere/
+    repository Legend_of_Wesmere-trunk
+    max revision 2329
+    branch master
+end match
+match /branches/1.4/Rise/
+    repository Rise-1.4
+    max revision 1957
+    branch master
+end match
+match /branches/1.4/The_Life_Of_A_Mage/
+    repository The_Life_Of_A_Mage-1.4
+    max revision 2465
+    branch master
+end match
+match /branches/1.8/The_Silver_Lands/
+    repository The_Silver_Lands-1.8
+    max revision 3166
+    branch master
+end match
+create repository The_Hammer_of_Thursagan-root
+end repository
+match /The_Hammer_Of_Thursagan/
+    repository The_Hammer_of_Thursagan-root
+    branch master
+    max revision 1702
+end match
+match /The_Hammer_Of_Thursagan/
+    min revision 1703
+end match
+match /The_Hammer_of_Thursagan/
+    max revision 1703
+end match
+match /The_Hammer_of_Thursagan/
+    repository The_Hammer_of_Thursagan-root
+    branch master
+    min revision 1704
+    max revision 1862
+end match
+match /Liberty
+end match
+match /po
+end match
+match /trunk/Flight_Freedom_1_3
+end match
+match /branches/1.8/EEaW
+end match
+match /branches/1.10/EEaW
+end match
+match /trunk/foo
+end match
+match /trunk/bar
+end match
+match /trunk/test
+end match
+match /foo
+end match
